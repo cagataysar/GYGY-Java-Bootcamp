@@ -9,6 +9,8 @@ public class LetterFrequenceTest {
 
 		LetterFrequence lFrequence = new LetterFrequence();
 		lFrequence.zip("aaaafggg");
+		System.out.println();
+	
 
 	}
 
