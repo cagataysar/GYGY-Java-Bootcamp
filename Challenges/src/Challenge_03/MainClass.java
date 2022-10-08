@@ -10,6 +10,7 @@ public class MainClass {
 		// (jar dosyası olarak yazılacak)
 		System.out.print(false);
 		System.out.println();
+		System.out.print(false);
 			
 	}
 
