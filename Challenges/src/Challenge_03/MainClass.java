@@ -8,6 +8,8 @@ public class MainClass {
 		// 4 işlem yapan bir hesap makinesi yazılıp başka projelerde
 		// kütüphane olarak kullanılacak (main metodu olmayacak) 
 		// (jar dosyası olarak yazılacak)
+		System.out.print(false);
+		System.out.println();
 			
 	}
 
