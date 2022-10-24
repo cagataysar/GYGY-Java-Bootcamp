@@ -1,0 +1,29 @@
+Kesuke Miyagi, the legendary Karate master from the movie series Karate Kid, is a tiny man you would otherwise mistake for a plumber.
+Karate is a family heritage that every Miyagi teaches his son. Karate is not only about fighting, but rather a means to end all the fights. 
+It is not something that you would brag about. It is how you live your life, a natural extension of your soul and being.
+This post is an interpretation of the teachings of Mr. Miyagi, who himself is a great master and an inspiring teacher.
+I follow the software craftsmanship movement, and believe a software career should be built upon these simple-to-follow yet hard-to-master principles.
+Surprisingly though, software craftsmanship is a philosophy that is extremely congruous with the way of Mr. Miyagi.
+But, before that, let me briefly talk about crafts and software craftsmanship.
+
+Craft|krɑːft|noun
+
+    An occupation that favors skilled labor over capital and requires training, dexterity and mastery.
+
+This is a very brief description of what a craft is. And I tend to add “aesthetic perspective” to this definition. Let’s dissect the definition to get a better understanding of what makes something a craft.
+
+Skilled labor
+It is labor that produces a unique, value-added outcome. Monotonous effort is not enough, mass production is out of the question.
+A person who sells stuff they buy from a provider, a person that fills cigarettes in a factory, or a person that assembles circuitry for a technological product are not representatives of skilled labor. 
+Instead, skilled labor requires a thorough education that is often complex and that takes years. In the end, skilled labor produces a unique outcome. 
+Two end products are never the same. Software is a profession that requires such labor.
+
+Mastery
+Software requires mastery. A young engineering graduate is not the same as an established engineer of many years of experience. 
+Similarly, an engineer who has worked for many years in their field, yet failed to improve themself is not the same as a younger engineer with less years in the industry and trained very hard to improve. 
+Becoming a master differentiates your way of doing your job and as you progress in the path to becoming a master, the outcome you produce gets distilled to perfection.
+
+Dexterity
+Dexterity is required to perform or build seemingly-complex things, such as acrobatics or… disarming a bomb. It is the skill required to unravel comprehensive, entangled problems. 
+In software, nearly all the problems you face, either bugs or feature development, are a tangled mass of ambiguity. 
+In order to complete the tasks at hand in time and with quality, you have to be dexterous.

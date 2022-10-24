@@ -45,17 +45,22 @@ public class HashMapChallenge {
 		HashMap<Integer, Character> hashMap = new HashMap<>();
 		String newString = "";
 		int k = 0;
-		for (int i = 0; i < str.length(); i++) {
+		int count = 0;
+		int i;
+		for (i = 0; i < str.length(); i++) {
 			if (!hashMap.containsValue(str.charAt(i))) {
 				hashMap.put(k, str.charAt(i));
 				k++;
 			}
 		}
-		for (Character newChar : hashMap.values()) {
-			newString += newChar;
+
+		for (i = 0; i < str.length(); i++) {
+			if (hashMap.containsValue(str.charAt(i))) {
+				count++;
+			}
 		}
 
-		System.out.println("New String is : " + newString);
+		System.out.println("New String is : " + newString.charAt(i) + "" + count);
 	}
 
 }
