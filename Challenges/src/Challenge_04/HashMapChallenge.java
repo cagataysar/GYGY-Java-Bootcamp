@@ -1,19 +1,20 @@
 package Challenge_04;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class HashMapChallenge {
 
 	public static void main(String[] args) {
-		hashList("numankaraaslan");
-//		hashList2("cagatay");
+//		hashList("numankaraaslan");
+		hashList2("numan karaaslan");
 	}
 
 	/**
 	 * HashMap ile konsoldan girilen ifadeyi zipleyip harfleri listeye atmak Örnek:
 	 * numankaraaslan -> numakrsl
 	 * 
-	 * @param str
 	 */
 
 	public static void hashList(String str) {
@@ -36,31 +37,26 @@ public class HashMapChallenge {
 	/**
 	 * HashMap ile konsoldan girilen string içerisinde hangi harften kaç tane
 	 * bulunduğunu sıralı bir şekilde yazmak Örnek: numan -> n2u1m1a1 Numan
-	 * karaaslan n3u1m1a5 1k1r1s1l1
+	 * karaaslan n3u1m1a5 1k1r1s1l1 (plus -> boşluğu yazdırma)
 	 * 
-	 * @param str
 	 */
 
 	public static void hashList2(String str) {
-		HashMap<Integer, Character> hashMap = new HashMap<>();
-		String newString = "";
-		int k = 0;
-		int count = 0;
-		int i;
-		for (i = 0; i < str.length(); i++) {
-			if (!hashMap.containsValue(str.charAt(i))) {
-				hashMap.put(k, str.charAt(i));
-				k++;
+		Map<String, Integer> hashMap = new LinkedHashMap();
+		String lowerString = str.toLowerCase();
+		int i = 1;
+
+		for (String string : lowerString.split("")) {
+			if (!hashMap.containsKey(string)) {
+				hashMap.put(string, i);
+			} else {
+				hashMap.put(string, hashMap.get(string) + i);
 			}
 		}
-
-		for (i = 0; i < str.length(); i++) {
-			if (hashMap.containsValue(str.charAt(i))) {
-				count++;
-			}
+		// keySet() metodu key'leri bir küme olarak verir
+		for (String key : hashMap.keySet()) {
+			System.out.print(key + "" + hashMap.get(key));
 		}
-
-		System.out.println("New String is : " + newString.charAt(i) + "" + count);
 	}
 
 }
