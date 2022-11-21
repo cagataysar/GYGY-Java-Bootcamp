@@ -6,6 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 @Retention(value = RetentionPolicy.RUNTIME)
+
 //Anotasyonun ne zamana kadar geçerliliğini koruyacağını söyler.
 @Target(value = { ElementType.METHOD, ElementType.TYPE })
 //Bu anotasyonun nerelerde kullanılabileceğini belirtir.
